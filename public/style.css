@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('https://academy.smu.edu.sg/sites/academy.smu.edu.sg/files/2023-02/Is-Digital-Health-The-Future-Of-Healthcare.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    width: 100%;
+}
+
+nav {
+    background-color: #6299d0;
+    color: #fff;
+    padding: 0.3em;
+    text-align: center;
+}
+nav img{
+    width : 9%;
+    border-radius: 5px;
+    margin-right: 300px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+   
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 100px;
+    vertical-align: middle;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;}
+
+.nav-link:hover {
+     color: #08090a;
+ }
+      
+.nav-link.active {
+    color: #9ae5c7; }
+
+ h1 {
+        font-size: 3.5em;
+        color: #fffffff5;
+        text-align: left; 
+        margin-left: 50px;
+      }
+      .column {
+        width: 50%; 
+        float: left; 
+        box-sizing: border-box; 
+        padding: 20px; 
+        margin-top: 20px;
+      }
+      p{
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 1.5em;
+        text-align: center; 
+        font-style: italic;
+        
+      }
+
+      .center-container {
+        text-align: center;
+      }
+      .arrow-button {
+        background-color: #3498db; 
+        color: #fff; 
+        border: none;
+        padding: 10px 20px; 
+        font-size: 16px; 
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
+        border-radius: 30px;
+      }
+      
+      .arrow-button span {
+        position: absolute;
+        right: 10px;
+      }
+      
+      
+      .arrow-button:hover {
+        background-color: #2980b9; 
+      }
+
+
+    footer {
+        color: #282626d1;
+        text-align: center;
+        padding: 0.2rem;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+   

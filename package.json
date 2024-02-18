@@ -1,0 +1,23 @@
+{
+  "name": "healthbot",
+  "version": "1.0.0",
+  "description": "An interactive chatbot helping Rangsit University students with healthcare questions and support, making it easier to navigate health-related matters",
+  "main": "script.js",
+  
+  "type": "module", 
+  "scripts": {
+    "test": "\"echo \\\"Error: no test specified\\ \" && exit 1\"",
+    "start": "node server.mjs"
+  },
+  "keywords": [
+    "[]"
+  ],
+  "author": "\"\",",
+  "license": "ISC",
+  "dependencies": {
+    "@google/generative-ai": "^0.2.1",
+    "dotenv": "^16.4.4",
+    "express": "^4.18.2"
+  }
+  
+}
